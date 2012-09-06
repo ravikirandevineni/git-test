@@ -1,0 +1,12 @@
+<module rename-to='app'>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+	<inherits name="com.extjs.gxt.ui.GXT"/>
+	<inherits name="com.google.gwt.i18n.I18N"/>
+	 <source path='client'/>
+  <source path='shared'/>
+  <stylesheet src="js/ext/resources/css/ext-all.css"/>
+  <script src="js/ext/adapter/ext/ext-base.js"/>
+  <script src="js/ext/ext-all.js"/>
+  <entry-point class="com.icelero.ias.ad.client.Main"/>
+</module>
